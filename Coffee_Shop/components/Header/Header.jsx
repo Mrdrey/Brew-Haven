@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './css/Header.css'
 
 const Header = () => {
    
@@ -12,12 +12,6 @@ const Header = () => {
                 <div className='Title'>
                     <h2>Brew Haven</h2>
                 </div>
-                <div className="Nav-Bar">
-                    <ul className="Nav-Bar-List">
-                        <li className="Nav-Bar-Item" ><a href='#'>Home</a></li>
-                    </ul>
-                </div>
-
             </div>
 
         </>

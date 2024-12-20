@@ -10,7 +10,7 @@ import Layout from './pages/Layout'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>

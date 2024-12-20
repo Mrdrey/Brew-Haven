@@ -1,9 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
-
+import Header from "../../components/Header/Header";
+import './css/Layout.css'
 const Layout = () => {
   return (
     <>
-      <nav>
+    <div className="Container">
+    <Header/>
+      <nav className="nav-bar">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -20,6 +23,7 @@ const Layout = () => {
         </ul>
       </nav>
 
+    </div>
       <Outlet />
     </>
   )
